@@ -1,0 +1,26 @@
+<svg width="40" height="40" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path d="M100 20L50 50V110C50 150 100 180 100 180C100 180 150 150 150 110V50L100 20Z" fill="#0F9FD8" opacity="0.9"/>
+  
+  <!-- Accent shield -->
+  <path d="M100 20L140 45V95C140 130 100 160 100 160C100 160 140 130 140 95V45L100 20Z" fill="#22A699"/>
+  
+  <!-- Graduation cap -->
+  <g transform="translate(100, 70)">
+    <!-- Cap top -->
+    <rect x="-25" y="-15" width="50" height="8" fill="#001F5C" rx="2"/>
+    <!-- Tassel -->
+    <rect x="18" y="0" width="3" height="25" fill="#F59D1A"/>
+    <!-- Cap bottom band -->
+    <ellipse cx="0" cy="0" rx="28" ry="8" fill="#001F5C"/>
+  </g>
+  
+  <!-- Circuit lines -->
+  <g stroke="#22A699" stroke-width="2" fill="none">
+    <circle cx="70" cy="120" r="4" fill="#22A699"/>
+    <line x1="70" y1="120" x2="70" y2="140"/>
+    <circle cx="130" cy="130" r="4" fill="#22A699"/>
+    <line x1="130" y1="130" x2="130" y2="150"/>
+    <path d="M 70 140 Q 100 150 130 150" stroke="#F59D1A" stroke-width="2" fill="none"/>
+  </g>
+</svg>

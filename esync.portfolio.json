@@ -1,0 +1,139 @@
+{
+  "brand": {
+    "name": "eSync Student Management System",
+    "tagline": "Simple school management for Zambian schools",
+    "description": "eSync is a mobile-first, cloud-based school management system designed specifically for Zambian schools. It brings academics, finance, communication, and administration into one easy-to-use platform.",
+    "location": "Zambia",
+    "primaryColor": "#0F4C81",
+    "secondaryColor": "#22A699"
+  },
+
+  "hero": {
+    "headline": "Digitise Your School. Simplify Everything.",
+    "subheadline": "Manage academics, finance, and communication in one powerful platform built for Zambian schools.",
+    "cta": {
+      "text": "Request a Demo",
+      "link": "#contact"
+    }
+  },
+
+  "features": [
+    {
+      "title": "Student & Staff Management",
+      "description": "Manage student records, staff profiles, roles, and access securely from one dashboard.",
+      "icon": "users"
+    },
+    {
+      "title": "Attendance, Exams & Results",
+      "description": "Mark attendance, enter results, and generate academic reports with ease.",
+      "icon": "clipboard-check"
+    },
+    {
+      "title": "Fees & Payment Tracking",
+      "description": "Track school fees, payments, balances, and arrears accurately.",
+      "icon": "wallet"
+    },
+    {
+      "title": "Parent–School Communication",
+      "description": "Send announcements and messages to parents in real time.",
+      "icon": "message-square"
+    },
+    {
+      "title": "Role-Based Access",
+      "description": "Admins, Head Teachers, Teachers, Accounts, Parents, and Students all see only what they need.",
+      "icon": "shield"
+    },
+    {
+      "title": "Works Anywhere",
+      "description": "Optimised for phones, tablets, low-end computers, and slow internet connections.",
+      "icon": "smartphone"
+    }
+  ],
+
+  "roles": [
+    {
+      "name": "Admin",
+      "description": "Full control of the school system including users, academics, and finances."
+    },
+    {
+      "name": "Head Teacher",
+      "description": "Academic oversight, staff monitoring, and results approval."
+    },
+    {
+      "name": "Teacher",
+      "description": "Manage classes, attendance, results, and parent communication."
+    },
+    {
+      "name": "Accounts",
+      "description": "Manage fees, payments, and financial reporting."
+    },
+    {
+      "name": "Parent",
+      "description": "View child’s results, attendance, and fee balances."
+    },
+    {
+      "name": "Student",
+      "description": "Access personal academic records and announcements."
+    }
+  ],
+
+  "pricing": [
+    {
+      "plan": "Basic",
+      "students": "Up to 500 students",
+      "price": "K24,000 / year",
+      "features": [
+        "Student & Staff Management",
+        "Attendance & Results",
+        "Fees Tracking",
+        "Parent Messaging",
+        "Free Staff Training"
+      ]
+    },
+    {
+      "plan": "Premium",
+      "students": "501 – 1000 students",
+      "price": "K36,000 / year",
+      "features": [
+        "Everything in Basic",
+        "Advanced Reports",
+        "Higher Cloud Storage",
+        "Priority Support"
+      ]
+    },
+    {
+      "plan": "Enterprise",
+      "students": "1001 – 2000 students",
+      "price": "K42,000 / year",
+      "features": [
+        "Everything in Premium",
+        "Custom Features",
+        "Dedicated Support",
+        "Audit Logs"
+      ]
+    }
+  ],
+
+  "whyChoose": [
+    "Reduce paperwork and manual processes",
+    "Accurate and transparent fee tracking",
+    "Improved parent–school communication",
+    "Works even with unstable internet",
+    "Built locally for the Zambian education system"
+  ],
+
+  "contact": {
+    "email": "info@esync.co.zm",
+    "phone": "+260 XXX XXX XXX",
+    "ctaText": "Get Started with eSync"
+  },
+
+  "footer": {
+    "copyright": "© 2026 eSync. All rights reserved.",
+    "links": [
+      { "label": "Features", "href": "#features" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
+}
