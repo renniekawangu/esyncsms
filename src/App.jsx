@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
       {/* WhatsApp Button */}
-      <WhatsAppButton phoneNumber="+260XXX XXX XXX" message="Hi, I'm interested in requesting a demo of eSync for my school." />
+      <WhatsAppButton phoneNumber="+260980117950" message="Hi, I'm interested in requesting a demo of eSync for my school." />
 
       {/* Navigation */}
       <nav className="sticky top-0 bg-white dark:bg-gray-950 shadow-sm dark:shadow-gray-800 z-40 transition-colors duration-300">
