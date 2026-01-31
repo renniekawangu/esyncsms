@@ -122,11 +122,139 @@
     "Built locally for the Zambian education system"
   ],
 
+  "howItWorks": [
+    {
+      "number": 1,
+      "title": "School Registration",
+      "description": "Sign up your school and create admin accounts in minutes",
+      "details": [
+        "Basic school information setup",
+        "Create admin user account",
+        "Set up school profile",
+        "Configure preferences"
+      ],
+      "duration": "Typically 15 minutes"
+    },
+    {
+      "number": 2,
+      "title": "Data Import",
+      "description": "Upload your existing student and staff data seamlessly",
+      "details": [
+        "Import student records",
+        "Add staff profiles",
+        "Set up classes and streams",
+        "Assign teachers to classes"
+      ],
+      "duration": "Usually same day"
+    },
+    {
+      "number": 3,
+      "title": "Training & Setup",
+      "description": "Our team trains your staff on using the platform",
+      "details": [
+        "Free staff training sessions",
+        "System configuration",
+        "Role assignment",
+        "Integration setup"
+      ],
+      "duration": "2-3 days"
+    },
+    {
+      "number": 4,
+      "title": "Go Live",
+      "description": "Start using eSync with full support from day one",
+      "details": [
+        "Begin operations",
+        "24/7 support available",
+        "Monitor performance",
+        "Continuous optimization"
+      ],
+      "duration": "Ongoing"
+    }
+  ],
+
   "contact": {
     "email": "renniekawangu@gmail.com",
-    "phone": "+260980117950",
+    "phone": "+260770817839",
     "ctaText": "Get Started with eSync"
   },
+
+  "stats": [
+    {
+      "value": "50+",
+      "label": "Schools Using eSync"
+    },
+    {
+      "value": "25K+",
+      "label": "Students Managed"
+    },
+    {
+      "value": "99.8%",
+      "label": "Uptime Guarantee"
+    },
+    {
+      "value": "24/7",
+      "label": "Customer Support"
+    }
+  ],
+
+  "testimonials": [
+    {
+      "rating": 5,
+      "quote": "eSync has completely transformed how we manage our school. What used to take hours in paperwork now takes minutes. Our teachers and parents love the simplicity.",
+      "author": "Mr. Mwape",
+      "role": "Head Teacher",
+      "school": "Kabulonga Secondary School, Lusaka"
+    },
+    {
+      "rating": 5,
+      "quote": "As a parent, I can now easily check my child's results and fees status anytime. The real-time communication with teachers is a game-changer for us.",
+      "author": "Ms. Chanda",
+      "role": "Parent",
+      "school": "St. Crispin's School, Kitwe"
+    },
+    {
+      "rating": 5,
+      "quote": "The accounts team was skeptical at first, but eSync's fee tracking system is accurate and transparent. We've eliminated payment discrepancies almost entirely.",
+      "author": "Mrs. Nkonde",
+      "role": "Accounts Manager",
+      "school": "Olympic Secondary School, Ndola"
+    },
+    {
+      "rating": 5,
+      "quote": "We operate on limited internet. eSync's mobile-first design and offline capabilities work perfectly for our situation. No more excuses about connectivity!",
+      "author": "Mr. Chikwanda",
+      "role": "Administrator",
+      "school": "Matero Primary School, Lusaka"
+    },
+    {
+      "rating": 5,
+      "quote": "Implementing eSync was smooth. The training was excellent, and the support team responds quickly. Worth every kwacha spent.",
+      "author": "Mrs. Banda",
+      "role": "System Administrator",
+      "school": "Eveline High School, Livingstone"
+    },
+    {
+      "rating": 5,
+      "quote": "Parents who were unreachable before now stay informed. The announcement and messaging features have improved our whole school culture.",
+      "author": "Mr. Simukunata",
+      "role": "Head Teacher",
+      "school": "Chipata High School, Chipata"
+    }
+  ],
+
+  "featuredSchools": [
+    { "name": "Kabulonga Secondary", "students": "800+ students" },
+    { "name": "St. Crispin's School", "students": "650+ students" },
+    { "name": "Olympic Secondary", "students": "1200+ students" },
+    { "name": "Matero Primary", "students": "450+ students" },
+    { "name": "Eveline High School", "students": "750+ students" },
+    { "name": "Chipata High School", "students": "900+ students" },
+    { "name": "Levy Mwanawasa", "students": "1100+ students" },
+    { "name": "Chelstone Primary", "students": "600+ students" },
+    { "name": "Kafue Secondary", "students": "850+ students" },
+    { "name": "Munali Secondary", "students": "950+ students" }
+  ],
 
   "footer": {
     "copyright": "© 2026 eSync. All rights reserved.",
@@ -135,5 +263,143 @@
       { "label": "Pricing", "href": "#pricing" },
       { "label": "Contact", "href": "#contact" }
     ]
-  }
+  },
+
+  "comparison": [
+    {
+      "feature": "Attendance Tracking",
+      "esync": true,
+      "esyncText": "Automated",
+      "traditional": true,
+      "traditionalText": "Manual registers"
+    },
+    {
+      "feature": "Real-time Results Recording",
+      "esync": true,
+      "esyncText": "Instant",
+      "traditional": false,
+      "traditionalText": "Weeks later"
+    },
+    {
+      "feature": "Fee Payment Tracking",
+      "esync": true,
+      "esyncText": "Accurate",
+      "traditional": false,
+      "traditionalText": "Error-prone"
+    },
+    {
+      "feature": "Parent Communication",
+      "esync": true,
+      "esyncText": "Instant messaging",
+      "traditional": false,
+      "traditionalText": "Phone calls only"
+    },
+    {
+      "feature": "Data Backup & Security",
+      "esync": true,
+      "esyncText": "Cloud-backed",
+      "traditional": false,
+      "traditionalText": "Paper/USB risk"
+    },
+    {
+      "feature": "Remote Access",
+      "esync": true,
+      "esyncText": "Anywhere, anytime",
+      "traditional": false,
+      "traditionalText": "School only"
+    },
+    {
+      "feature": "Report Generation",
+      "esync": true,
+      "esyncText": "1 click",
+      "traditional": false,
+      "traditionalText": "Manual calculation"
+    },
+    {
+      "feature": "Mobile-Friendly",
+      "esync": true,
+      "esyncText": "Works on phones",
+      "traditional": false,
+      "traditionalText": "Not applicable"
+    },
+    {
+      "feature": "Audit Trail",
+      "esync": true,
+      "esyncText": "Full history",
+      "traditional": false,
+      "traditionalText": "N/A"
+    },
+    {
+      "feature": "Multi-role Access",
+      "esync": true,
+      "esyncText": "6+ roles",
+      "traditional": false,
+      "traditionalText": "Limited"
+    },
+    {
+      "feature": "Time to Setup",
+      "esync": true,
+      "esyncText": "1-2 weeks",
+      "traditional": true,
+      "traditionalText": "Already in place"
+    },
+    {
+      "feature": "Cost-effective",
+      "esync": true,
+      "esyncText": "Affordable",
+      "traditional": false,
+      "traditionalText": "Hidden costs"
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "How secure is my school's data with eSync?",
+      "answer": "Security is our top priority. All data is encrypted end-to-end, stored on secure cloud servers, and backed up automatically. We comply with international data protection standards and conduct regular security audits. Your data is never shared with third parties without explicit consent."
+    },
+    {
+      "question": "What happens if internet goes down?",
+      "answer": "eSync is designed for low-connectivity environments. The mobile app works offline and automatically syncs when your connection is restored. Critical functions like attendance marking and result entry continue even without internet, ensuring uninterrupted operations."
+    },
+    {
+      "question": "How long does it take to set up eSync?",
+      "answer": "Initial setup takes just 15 minutes for registration. Data import usually happens same-day. Full training and configuration takes 2-3 days. You can start using eSync immediately while we handle the rest. Our team guides you through every step."
+    },
+    {
+      "question": "Can I import existing student and staff data?",
+      "answer": "Absolutely! We accept data in Excel, CSV, and other common formats. Our team handles the import process to ensure accuracy. We can typically import data for 1,000+ students within hours. No manual re-entry needed."
+    },
+    {
+      "question": "What if my school has custom requirements?",
+      "answer": "We offer Enterprise plans with custom features and integration capabilities. Our development team can work with your school to build specific solutions. Contact our support team to discuss your unique needs."
+    },
+    {
+      "question": "How is eSync different from international school management systems?",
+      "answer": "eSync is built specifically for Zambian schools. It understands local curriculum requirements, Zambian fee structures, and works perfectly on low-bandwidth connections common in Zambia. Plus, it's more affordable than international alternatives."
+    },
+    {
+      "question": "Can multiple users access the system simultaneously?",
+      "answer": "Yes! eSync supports unlimited concurrent users. Teachers, admin, parents, and students can all access the system at the same time. Role-based access ensures everyone sees only what they're supposed to see."
+    },
+    {
+      "question": "What training do teachers and staff receive?",
+      "answer": "We provide comprehensive training including live sessions, video tutorials, and documentation. Our support team conducts on-site or online training for all staff. You also get a dedicated account manager during your first month."
+    },
+    {
+      "question": "What devices can parents and students use to access eSync?",
+      "answer": "eSync works on any device with a web browser: computers, tablets, and smartphones. The interface is fully responsive and optimized for phones, even older models with limited processing power. Parents don't need to install anything."
+    },
+    {
+      "question": "How do you handle fee payment within eSync?",
+      "answer": "eSync tracks all fees and payments accurately. We support mobile money integration (Airtel Money, MTN Money, Zamtel) and bank transfers. Parents can see their child's balance anytime. Accounts staff get detailed reports for reconciliation."
+    },
+    {
+      "question": "What if we need to change pricing plans?",
+      "answer": "Plans are flexible. You can upgrade or downgrade anytime based on your school's needs. If you grow beyond your current plan, we'll adjust seamlessly. No long-term contracts or cancellation fees."
+    },
+    {
+      "question": "How do we contact support if we have issues?",
+      "answer": "You get 24/7 customer support via email, phone, and WhatsApp. For urgent issues, our support team responds within 2 hours. You also have access to our knowledge base with video tutorials and documentation."
+    }
+  ]
 }

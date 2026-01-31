@@ -1,6 +1,12 @@
 import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
+import Stats from './components/Stats'
+import Testimonials from './components/Testimonials'
+import FeaturedSchools from './components/FeaturedSchools'
 import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
+import Comparison from './components/Comparison'
+import FAQ from './components/FAQ'
 import Roles from './components/Roles'
 import Pricing from './components/Pricing'
 import WhyChoose from './components/WhyChoose'
@@ -117,11 +123,17 @@ function App() {
       {/* Main Content */}
       <main>
         <Hero data={data.hero} />
+        <Stats data={data.stats} />
+        <Testimonials data={data.testimonials} />
+        <FeaturedSchools data={data.featuredSchools} />
         <Features data={data.features} />
+        <HowItWorks data={data.howItWorks} />
+        <Comparison data={data.comparison} />
         <Gallery />
         <Roles data={data.roles} />
         <Pricing data={data.pricing} />
         <WhyChoose data={data.whyChoose} />
+        <FAQ data={data.faq} />
         <Contact data={data.contact} />
       </main>
 
