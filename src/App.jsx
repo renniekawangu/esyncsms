@@ -7,6 +7,7 @@ import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Comparison from './components/Comparison'
 import FAQ from './components/FAQ'
+import Team from './components/Team'
 import Roles from './components/Roles'
 import Pricing from './components/Pricing'
 import WhyChoose from './components/WhyChoose'
@@ -133,6 +134,7 @@ function App() {
         <Roles data={data.roles} />
         <Pricing data={data.pricing} />
         <WhyChoose data={data.whyChoose} />
+        <Team data={data.team} />
         <FAQ data={data.faq} />
         <Contact data={data.contact} />
       </main>
