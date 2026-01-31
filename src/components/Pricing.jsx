@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import PricingCard from './PricingCard'
+import PaymentPlanModal from './PaymentPlanModal'
 
 export default function Pricing({ data }) {
+  const [selectedPlan, setSelectedPlan] = useState(null)
   const premiumIndex = data.findIndex(plan => plan.plan === 'Premium')
 
   return (
@@ -19,6 +22,7 @@ export default function Pricing({ data }) {
               key={idx}
               {...plan}
               isPopular={idx === premiumIndex}
+              onSelectPlan={() => setSelectedPlan(plan)}
             />
           ))}
         </div>
@@ -27,6 +31,8 @@ export default function Pricing({ data }) {
           All plans include mobile app access, cloud storage, and free staff training.
         </p>
       </div>
+
+      <PaymentPlanModal plan={selectedPlan} onClose={() => setSelectedPlan(null)} />
     </section>
   )
 }

@@ -80,36 +80,73 @@
   "pricing": [
     {
       "plan": "Basic",
+      "bestFor": "Small schools",
       "students": "Up to 500 students",
       "price": "K24,000 / year",
+      "monthlyPrice": 2000,
+      "termlyPrice": 8000,
+      "semesterPrice": 12000,
+      "annualPrice": 24000,
       "features": [
         "Student & Staff Management",
         "Attendance & Results",
         "Fees Tracking",
         "Parent Messaging",
         "Free Staff Training"
+      ],
+      "services": [
+        { "name": "System maintenance", "cost": 6000, "duration": "12 months" },
+        { "name": "Domain name", "cost": 500, "duration": "12 months" },
+        { "name": "Product Services", "cost": 15000, "duration": "12 months" },
+        { "name": "Cloud storage and hosting", "cost": 2500, "duration": "12 months" },
+        { "name": "Staff training", "cost": 0, "duration": "Till contract termination" }
       ]
     },
     {
       "plan": "Premium",
+      "bestFor": "Medium schools",
       "students": "501 – 1000 students",
       "price": "K36,000 / year",
+      "monthlyPrice": 3000,
+      "termlyPrice": 12000,
+      "semesterPrice": 18000,
+      "annualPrice": 36000,
       "features": [
         "Everything in Basic",
         "Advanced Reports",
         "Higher Cloud Storage",
         "Priority Support"
+      ],
+      "services": [
+        { "name": "System maintenance", "cost": 12000, "duration": "12 months" },
+        { "name": "Domain name", "cost": 500, "duration": "12 months" },
+        { "name": "Product Services", "cost": 20000, "duration": "12 months" },
+        { "name": "Cloud storage and hosting", "cost": 3500, "duration": "12 months" },
+        { "name": "Staff training", "cost": 0, "duration": "Till contract termination" }
       ]
     },
     {
       "plan": "Enterprise",
+      "bestFor": "Large schools",
       "students": "1001 – 2000 students",
       "price": "K42,000 / year",
+      "monthlyPrice": 3500,
+      "termlyPrice": 14000,
+      "semesterPrice": 21000,
+      "annualPrice": 42000,
       "features": [
         "Everything in Premium",
         "Custom Features",
         "Dedicated Support",
         "Audit Logs"
+      ],
+      "customFeatures": "Custom features and integrations are quoted separately based on school requirements.",
+      "services": [
+        { "name": "System maintenance", "cost": 12000, "duration": "12 months" },
+        { "name": "Domain name", "cost": 500, "duration": "12 months" },
+        { "name": "Product Services", "cost": 25000, "duration": "12 months" },
+        { "name": "Cloud storage and hosting", "cost": 4500, "duration": "12 months" },
+        { "name": "Staff training", "cost": 0, "duration": "Till contract termination" }
       ]
     }
   ],

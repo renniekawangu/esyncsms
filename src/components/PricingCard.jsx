@@ -1,6 +1,6 @@
 import { Check } from 'lucide-react'
 
-export default function PricingCard({ plan, students, price, features, isPopular = false }) {
+export default function PricingCard({ plan, students, price, features, isPopular = false, onSelectPlan = () => {} }) {
   return (
     <div
       className={`rounded-lg p-8 transition duration-300 ${
@@ -34,13 +34,14 @@ export default function PricingCard({ plan, students, price, features, isPopular
       </ul>
 
       <button
+        onClick={onSelectPlan}
         className={`w-full py-3 rounded-lg font-semibold transition duration-300 ${
           isPopular
             ? 'bg-white text-primary hover:bg-blue-50 dark:bg-gray-900 dark:text-blue-400 dark:hover:bg-gray-800'
             : 'bg-primary text-white hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-700'
         }`}
       >
-        Choose Plan
+        View Payment Plans
       </button>
     </div>
   )
