@@ -236,17 +236,9 @@
   ],
 
   "testimonials": [
-    {
-      "rating": 5,
-      "quote": "Parents who were unreachable before now stay informed. The announcement and messaging features have improved our whole school culture.",
-      "author": "Rennie Kawangu",
-      "role": "Developer at eSync",
-      "school": ""
-    }
   ],
 
   "featuredSchools": [
-    { "name": "", "students": "" }
   ],
 
   "footer": {
