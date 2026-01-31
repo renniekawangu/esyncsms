@@ -241,6 +241,31 @@
   "featuredSchools": [
   ],
 
+  "about": {
+    "mission": "To empower Zambian schools with affordable, accessible, and reliable digital solutions that simplify administration, improve communication, and enhance educational outcomes.",
+    "vision": "A world where every school in Zambia, regardless of size or resources, has access to world-class management technology that frees educators to focus on what matters most—teaching and learning.",
+    "values": [
+      {
+        "name": "Accessibility",
+        "description": "Built for every school, regardless of internet connection, device capabilities, or technical expertise."
+      },
+      {
+        "name": "Reliability",
+        "description": "Enterprise-grade systems that work consistently, even in challenging environments."
+      },
+      {
+        "name": "Affordability",
+        "description": "Pricing that respects school budgets while delivering exceptional value and ROI."
+      },
+      {
+        "name": "Education-First",
+        "description": "Every decision is guided by what's best for schools, students, teachers, and parents."
+      }
+    ],
+    "story": "eSync was born from frustration. Our founder, Rennie Kawangu, visited schools across Zambia and witnessed incredible educators struggling with outdated systems—or no systems at all. Teachers spent hours on paperwork instead of preparing lessons. Administrators manually tracked fees with spreadsheets prone to errors. Parents had no way to know their children's progress.",
+    "storyPart2": "He realized Zambia didn't need expensive international software built for wealthy schools in developed countries. It needed a solution designed specifically for Zambian schools—one that works on any device, survives on slow internet, respects tight budgets, and solves real problems. eSync was born."
+  },
+
   "footer": {
     "copyright": "© 2026 eSync. All rights reserved.",
     "links": [

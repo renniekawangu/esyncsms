@@ -6,6 +6,7 @@ import FeaturedSchools from './components/FeaturedSchools'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Comparison from './components/Comparison'
+import About from './components/About'
 import FAQ from './components/FAQ'
 import Team from './components/Team'
 import Roles from './components/Roles'
@@ -48,6 +49,9 @@ function App() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
+            <a href="#about" className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition">
+              About
+            </a>
             <a href="#features" className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition">
               Features
             </a>
@@ -56,6 +60,12 @@ function App() {
             </a>
             <a href="#pricing" className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition">
               Pricing
+            </a>
+            <a href="#team" className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition">
+              Team
+            </a>
+            <a href="#faq" className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition">
+              FAQ
             </a>
             <a href="#contact" className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition">
               Contact
@@ -91,6 +101,12 @@ function App() {
         {isNavOpen && (
           <div className="md:hidden bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 px-4 py-4 space-y-3">
             <a
+              href="#about"
+              className="block text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition py-2"
+            >
+              About
+            </a>
+            <a
               href="#features"
               className="block text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition py-2"
             >
@@ -109,6 +125,18 @@ function App() {
               Pricing
             </a>
             <a
+              href="#team"
+              className="block text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition py-2"
+            >
+              Team
+            </a>
+            <a
+              href="#faq"
+              className="block text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition py-2"
+            >
+              FAQ
+            </a>
+            <a
               href="#contact"
               className="block text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-blue-400 transition py-2"
             >
@@ -124,16 +152,17 @@ function App() {
       {/* Main Content */}
       <main>
         <Hero data={data.hero} />
+        <About data={data.about} />
         <Stats data={data.stats} />
-        <Testimonials data={data.testimonials} />
-        <FeaturedSchools data={data.featuredSchools} />
         <Features data={data.features} />
+        <Gallery />
         <HowItWorks data={data.howItWorks} />
         <Comparison data={data.comparison} />
-        <Gallery />
         <Roles data={data.roles} />
         <Pricing data={data.pricing} />
         <WhyChoose data={data.whyChoose} />
+        <Testimonials data={data.testimonials} />
+        <FeaturedSchools data={data.featuredSchools} />
         <Team data={data.team} />
         <FAQ data={data.faq} />
         <Contact data={data.contact} />
