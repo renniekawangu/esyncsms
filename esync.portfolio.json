@@ -22,22 +22,22 @@
     "vision": "A Zambia where every school—regardless of size or location—has access to world-class management technology that enables educators to focus on what matters most: teaching.",
     "values": [
       {
-        "icon": "🎯",
+        "icon": "target",
         "name": "Student-Centric",
         "description": "Every feature is designed with students and their success at the center."
       },
       {
-        "icon": "🔐",
+        "icon": "lock",
         "name": "Reliability",
         "description": "Systems that work, even when connectivity is challenging."
       },
       {
-        "icon": "💰",
+        "icon": "dollar-sign",
         "name": "Affordability",
         "description": "Transparent, fair pricing so every school can benefit."
       },
       {
-        "icon": "🤝",
+        "icon": "handshake",
         "name": "Partnership",
         "description": "We succeed when our schools succeed—we're committed to your growth."
       }

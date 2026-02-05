@@ -1,4 +1,11 @@
-import { Target, Heart, Zap, Users } from 'lucide-react'
+import { Target, Lock, DollarSign, Users, Heart, Zap } from 'lucide-react'
+
+const iconMap = {
+  target: Target,
+  lock: Lock,
+  'dollar-sign': DollarSign,
+  handshake: Users
+}
 
 export default function About({ data }) {
   return (
@@ -41,17 +48,26 @@ export default function About({ data }) {
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Our Core Values</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {data.values.map((value, idx) => (
-              <div key={idx} className="p-6 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-blue-500/10 transition">
-                <div className="text-4xl mb-4">{value.icon}</div>
-                <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-                  {value.name}
-                </h4>
-                <p className="text-gray-600 dark:text-gray-400 text-sm">
-                  {value.description}
-                </p>
-              </div>
-            ))}
+            {data.values.map((value, idx) => {
+              const IconComponent = iconMap[value.icon]
+              return (
+                <div key={idx} className="p-6 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 hover:shadow-lg dark:hover:shadow-blue-500/10 transition">
+                  <div className="mb-4">
+                    {IconComponent ? (
+                      <IconComponent size={40} className="text-primary dark:text-blue-400" />
+                    ) : (
+                      <div className="text-4xl">{value.icon}</div>
+                    )}
+                  </div>
+                  <h4 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
+                    {value.name}
+                  </h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">
+                    {value.description}
+                  </p>
+                </div>
+              )
+            })}
           </div>
         </div>
 
