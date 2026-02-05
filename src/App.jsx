@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import ErrorBoundary from './components/ErrorBoundary'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
 import Testimonials from './components/Testimonials'
@@ -36,7 +37,8 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
+    <ErrorBoundary>
+      <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
       {/* WhatsApp Button */}
       <WhatsAppButton phoneNumber="+260980117950" message="Hi, I'm interested in requesting a demo of eSync for my school." />
 
@@ -171,6 +173,7 @@ function App() {
       {/* Footer */}
       <Footer data={data.footer} brand={data.brand} />
     </div>
+    </ErrorBoundary>
   )
 }
 

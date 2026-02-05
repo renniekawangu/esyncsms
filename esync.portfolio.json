@@ -1,8 +1,8 @@
 {
   "brand": {
-    "name": "eSync Student Management System",
+    "name": "eSync Enterprise",
     "tagline": "Simple school management for Zambian schools",
-    "description": "eSync is a mobile-first, cloud-based school management system designed specifically for Zambian schools. It brings academics, finance, communication, and administration into one easy-to-use platform.",
+    "description": "eSync is a mobile-first, cloud-based school management system built specifically for Zambian schools. It unifies academics, finance, communication, and administration into one reliable platform.",
     "location": "Zambia",
     "primaryColor": "#0F4C81",
     "secondaryColor": "#22A699"
@@ -10,228 +10,201 @@
 
   "hero": {
     "headline": "Digitise Your School. Simplify Everything.",
-    "subheadline": "Manage academics, finance, and communication in one powerful platform built for Zambian schools.",
+    "subheadline": "One powerful platform to manage academics, finance, and communication — built for Zambian schools.",
     "cta": {
       "text": "Request a Demo",
       "link": "#contact"
     }
   },
 
+  "about": {
+    "mission": "To empower Zambian schools with affordable, reliable digital tools that streamline operations, improve communication, and enhance educational outcomes for all students.",
+    "vision": "A Zambia where every school—regardless of size or location—has access to world-class management technology that enables educators to focus on what matters most: teaching.",
+    "values": [
+      {
+        "icon": "🎯",
+        "name": "Student-Centric",
+        "description": "Every feature is designed with students and their success at the center."
+      },
+      {
+        "icon": "🔐",
+        "name": "Reliability",
+        "description": "Systems that work, even when connectivity is challenging."
+      },
+      {
+        "icon": "💰",
+        "name": "Affordability",
+        "description": "Transparent, fair pricing so every school can benefit."
+      },
+      {
+        "icon": "🤝",
+        "name": "Partnership",
+        "description": "We succeed when our schools succeed—we're committed to your growth."
+      }
+    ],
+    "story": "eSync was born from a simple observation: Zambian schools struggled with fragmented systems that didn't work together. Teachers used one tool for attendance, another for grades, finance teams used spreadsheets, and parents were left in the dark. We knew there had to be a better way. Built by education-focused technologists who understand the African school environment, eSync combines powerful features with the reliability and simplicity that Zambian schools need. Today, we're proud to partner with schools across the region to transform education through technology."
+  },
+
   "features": [
     {
       "title": "Student & Staff Management",
-      "description": "Manage student records, staff profiles, roles, and access securely from one dashboard.",
+      "description": "Centralised management of students, staff profiles, roles, and permissions.",
       "icon": "users"
     },
     {
       "title": "Attendance, Exams & Results",
-      "description": "Mark attendance, enter results, and generate academic reports with ease.",
+      "description": "Record attendance, enter results, and generate reports instantly.",
       "icon": "clipboard-check"
     },
     {
       "title": "Fees & Payment Tracking",
-      "description": "Track school fees, payments, balances, and arrears accurately.",
+      "description": "Accurate tracking of school fees, payments, balances, and arrears.",
       "icon": "wallet"
     },
     {
       "title": "Parent–School Communication",
-      "description": "Send announcements and messages to parents in real time.",
+      "description": "Send announcements, SMS, and in-app messages to parents in real time.",
       "icon": "message-square"
     },
     {
-      "title": "Role-Based Access",
-      "description": "Admins, Head Teachers, Teachers, Accounts, Parents, and Students all see only what they need.",
+      "title": "Role-Based Access Control",
+      "description": "Secure access so each user only sees what they are allowed to.",
       "icon": "shield"
     },
     {
-      "title": "Works Anywhere",
-      "description": "Optimised for phones, tablets, low-end computers, and slow internet connections.",
+      "title": "Low-Bandwidth Optimised",
+      "description": "Designed to work smoothly on slow internet and low-end devices.",
       "icon": "smartphone"
     }
   ],
 
   "roles": [
-    {
-      "name": "Admin",
-      "description": "Full control of the school system including users, academics, and finances."
-    },
-    {
-      "name": "Head Teacher",
-      "description": "Academic oversight, staff monitoring, and results approval."
-    },
-    {
-      "name": "Teacher",
-      "description": "Manage classes, attendance, results, and parent communication."
-    },
-    {
-      "name": "Accounts",
-      "description": "Manage fees, payments, and financial reporting."
-    },
-    {
-      "name": "Parent",
-      "description": "View child’s results, attendance, and fee balances."
-    },
-    {
-      "name": "Student",
-      "description": "Access personal academic records and announcements."
-    }
+    { "name": "Admin", "description": "Full system control including users, academics, and finance." },
+    { "name": "Head Teacher", "description": "Academic oversight, staff supervision, and results approval." },
+    { "name": "Teacher", "description": "Manage classes, attendance, assessments, and communication." },
+    { "name": "Accounts", "description": "Fees management, payment tracking, and financial reports." },
+    { "name": "Parent", "description": "View learner performance, attendance, and fee balances." },
+    { "name": "Student", "description": "Access academic records, results, and announcements." }
   ],
 
   "pricing": [
     {
-      "plan": "Basic",
-      "bestFor": "Small schools",
-      "students": "Up to 500 students",
-      "price": "K24,000 / year",
-      "monthlyPrice": 2000,
-      "termlyPrice": 8000,
-      "semesterPrice": 12000,
-      "annualPrice": 24000,
+      "plan": "eSync Standard",
+      "students": "All school sizes",
+      "price": "ZMW 2,000/month",
       "features": [
+        "Unlimited Students",
+        "Unlimited Users",
         "Student & Staff Management",
-        "Attendance & Results",
-        "Fees Tracking",
-        "Parent Messaging",
+        "Attendance, Exams & Results",
+        "Fees & Payment Tracking",
+        "Parent & SMS Communication",
+        "Role-Based Access Control",
+        "Reports & Analytics",
+        "Audit Logs",
+        "Cloud Hosting & Automatic Backups",
+        "System Maintenance & Updates",
         "Free Staff Training"
       ],
-      "services": [
-        { "name": "System maintenance", "cost": 6000, "duration": "12 months" },
-        { "name": "Domain name", "cost": 500, "duration": "12 months" },
-        { "name": "Product Services", "cost": 15000, "duration": "12 months" },
-        { "name": "Cloud storage and hosting", "cost": 2500, "duration": "12 months" },
-        { "name": "Staff training", "cost": 0, "duration": "Till contract termination" }
-      ]
-    },
-    {
-      "plan": "Premium",
-      "bestFor": "Medium schools",
-      "students": "501 – 1000 students",
-      "price": "K36,000 / year",
-      "monthlyPrice": 3000,
-      "termlyPrice": 12000,
-      "semesterPrice": 18000,
-      "annualPrice": 36000,
-      "features": [
-        "Everything in Basic",
-        "Advanced Reports",
-        "Higher Cloud Storage",
-        "Priority Support"
-      ],
-      "services": [
-        { "name": "System maintenance", "cost": 12000, "duration": "12 months" },
-        { "name": "Domain name", "cost": 500, "duration": "12 months" },
-        { "name": "Product Services", "cost": 20000, "duration": "12 months" },
-        { "name": "Cloud storage and hosting", "cost": 3500, "duration": "12 months" },
-        { "name": "Staff training", "cost": 0, "duration": "Till contract termination" }
-      ]
-    },
-    {
-      "plan": "Enterprise",
-      "bestFor": "Large schools",
-      "students": "1001 – 2000 students",
-      "price": "K42,000 / year",
-      "monthlyPrice": 3500,
-      "termlyPrice": 14000,
-      "semesterPrice": 21000,
-      "annualPrice": 42000,
-      "features": [
-        "Everything in Premium",
-        "Custom Features",
-        "Dedicated Support",
-        "Audit Logs"
-      ],
-      "customFeatures": "Custom features and integrations are quoted separately based on school requirements.",
-      "services": [
-        { "name": "System maintenance", "cost": 12000, "duration": "12 months" },
-        { "name": "Domain name", "cost": 500, "duration": "12 months" },
-        { "name": "Product Services", "cost": 25000, "duration": "12 months" },
-        { "name": "Cloud storage and hosting", "cost": 4500, "duration": "12 months" },
-        { "name": "Staff training", "cost": 0, "duration": "Till contract termination" }
-      ]
+      "bestFor": "All Zambian Schools",
+      "monthlyPrice": 2000,
+      "termlyPrice": 6500,
+      "semesterPrice": 9500,
+      "annualPrice": 18000,
+      "description": "One fair, transparent plan for all schools. No student limits. No hidden fees.",
+      "support": {
+        "type": "Full Support",
+        "availability": "24/7",
+        "channels": ["Email", "Phone", "WhatsApp"]
+      },
+      "customisation": {
+        "available": true,
+        "note": "Custom features and integrations are quoted separately."
+      },
+      "fairUsePolicy": {
+        "note": "All schools receive equal access regardless of size. Pricing remains stable with no forced upgrades."
+      }
     }
   ],
 
   "whyChoose": [
-    "Reduce paperwork and manual processes",
-    "Accurate and transparent fee tracking",
-    "Improved parent–school communication",
-    "Works even with unstable internet",
-    "Built locally for the Zambian education system"
+    "Eliminates paperwork and manual processes",
+    "Transparent and accurate financial tracking",
+    "Improved parent engagement",
+    "Designed for low-connectivity environments",
+    "Built specifically for the Zambian education system"
   ],
 
   "howItWorks": [
     {
       "number": 1,
+      "step": 1,
       "title": "School Registration",
-      "description": "Sign up your school and create admin accounts in minutes",
+      "description": "Create your school account and admin users.",
+      "duration": "1 to 2 hours",
       "details": [
-        "Basic school information setup",
+        "Sign up with your school email",
         "Create admin user account",
-        "Set up school profile",
-        "Configure preferences"
-      ],
-      "duration": "Typically 15 minutes"
+        "Configure school details"
+      ]
     },
     {
       "number": 2,
+      "step": 2,
       "title": "Data Import",
-      "description": "Upload your existing student and staff data seamlessly",
+      "description": "Import students, staff, classes, and subjects.",
+      "duration": "Same day",
       "details": [
-        "Import student records",
-        "Add staff profiles",
-        "Set up classes and streams",
-        "Assign teachers to classes"
-      ],
-      "duration": "Usually same day"
+        "Upload Excel/CSV files",
+        "Map your data fields",
+        "Verify imported data"
+      ]
     },
     {
       "number": 3,
-      "title": "Training & Setup",
-      "description": "Our team trains your staff on using the platform",
+      "step": 3,
+      "title": "Training & Configuration",
+      "description": "Staff training and system setup by the eSync team.",
+      "duration": "2–3 days",
       "details": [
-        "Free staff training sessions",
-        "System configuration",
-        "Role assignment",
-        "Integration setup"
-      ],
-      "duration": "2-3 days"
+        "Staff training sessions",
+        "Custom workflow setup",
+        "Test all features"
+      ]
     },
     {
       "number": 4,
+      "step": 4,
       "title": "Go Live",
-      "description": "Start using eSync with full support from day one",
+      "description": "Start using eSync with continuous support.",
+      "duration": "Ongoing",
       "details": [
-        "Begin operations",
-        "24/7 support available",
-        "Monitor performance",
-        "Continuous optimization"
-      ],
-      "duration": "Ongoing"
+        "Activate all features",
+        "Monitor system health",
+        "24/7 support available"
+      ]
     }
   ],
 
-  "contact": {
-    "email": "renniekawangu@gmail.com",
-    "phone": "+260770817839",
-    "ctaText": "Get Started with eSync"
-  },
-
   "stats": [
+    { "value": 0, "label": "Schools Onboarded" },
+    { "value": 0, "label": "Students Managed" },
+    { "value": "99.8%", "label": "System Uptime" },
+    { "value": "24/7", "label": "Customer Support" }
+  ],
+
+  "faq": [
     {
-      "value": "0",
-      "label": "Schools Using eSync"
+      "question": "What happens if the internet goes down?",
+      "answer": "eSync is an online system optimised for low-bandwidth environments. When connectivity is unstable, the system quickly resumes and syncs once the connection is restored."
     },
     {
-      "value": "0",
-      "label": "Students Managed"
+      "question": "Is my school's data secure?",
+      "answer": "Yes. All data is encrypted, securely stored in the cloud, and automatically backed up. Strict role-based access ensures data privacy."
     },
     {
-      "value": "99.8%",
-      "label": "Uptime Guarantee"
-    },
-    {
-      "value": "24/7",
-      "label": "Customer Support"
+      "question": "Can we import existing student data?",
+      "answer": "Yes. We support Excel and CSV imports. Our team assists to ensure accurate migration."
     }
   ],
 
@@ -241,210 +214,82 @@
   "featuredSchools": [
   ],
 
-  "about": {
-    "mission": "To empower Zambian schools with affordable, accessible, and reliable digital solutions that simplify administration, improve communication, and enhance educational outcomes.",
-    "vision": "A world where every school in Zambia, regardless of size or resources, has access to world-class management technology that frees educators to focus on what matters most—teaching and learning.",
-    "values": [
-      {
-        "name": "Accessibility",
-        "description": "Built for every school, regardless of internet connection, device capabilities, or technical expertise."
-      },
-      {
-        "name": "Reliability",
-        "description": "Enterprise-grade systems that work consistently, even in challenging environments."
-      },
-      {
-        "name": "Affordability",
-        "description": "Pricing that respects school budgets while delivering exceptional value and ROI."
-      },
-      {
-        "name": "Education-First",
-        "description": "Every decision is guided by what's best for schools, students, teachers, and parents."
-      }
-    ],
-    "story": "eSync was born from frustration. Our founder, Rennie Kawangu, visited schools across Zambia and witnessed incredible educators struggling with outdated systems—or no systems at all. Teachers spent hours on paperwork instead of preparing lessons. Administrators manually tracked fees with spreadsheets prone to errors. Parents had no way to know their children's progress.",
-    "storyPart2": "He realized Zambia didn't need expensive international software built for wealthy schools in developed countries. It needed a solution designed specifically for Zambian schools—one that works on any device, survives on slow internet, respects tight budgets, and solves real problems. eSync was born."
-  },
-
-  "footer": {
-    "copyright": "© 2026 eSync. All rights reserved.",
-    "links": [
-      { "label": "Features", "href": "#features" },
-      { "label": "Pricing", "href": "#pricing" },
-      { "label": "Contact", "href": "#contact" }
-    ]
-  },
-
   "comparison": [
     {
-      "feature": "Attendance Tracking",
+      "feature": "Data Entry & Management",
       "esync": true,
-      "esyncText": "Automated",
-      "traditional": true,
-      "traditionalText": "Manual registers"
+      "traditional": false
     },
     {
-      "feature": "Real-time Results Recording",
+      "feature": "Real-Time Attendance Tracking",
       "esync": true,
-      "esyncText": "Instant",
-      "traditional": false,
-      "traditionalText": "Weeks later"
+      "traditional": false
     },
     {
-      "feature": "Fee Payment Tracking",
+      "feature": "Automated Reporting",
       "esync": true,
-      "esyncText": "Accurate",
-      "traditional": false,
-      "traditionalText": "Error-prone"
+      "traditional": false
     },
     {
-      "feature": "Parent Communication",
+      "feature": "Instant Parent Communication",
       "esync": true,
-      "esyncText": "Instant messaging",
-      "traditional": false,
-      "traditionalText": "Phone calls only"
+      "traditional": false
     },
     {
-      "feature": "Data Backup & Security",
+      "feature": "Fee Tracking & Reminders",
       "esync": true,
-      "esyncText": "Cloud-backed",
-      "traditional": false,
-      "traditionalText": "Paper/USB risk"
+      "traditional": false
     },
     {
-      "feature": "Remote Access",
+      "feature": "Cloud Backup & Security",
       "esync": true,
-      "esyncText": "Anywhere, anytime",
-      "traditional": false,
-      "traditionalText": "School only"
+      "traditional": false
     },
     {
-      "feature": "Report Generation",
+      "feature": "Mobile Access",
       "esync": true,
-      "esyncText": "1 click",
-      "traditional": false,
-      "traditionalText": "Manual calculation"
+      "traditional": false
     },
     {
-      "feature": "Mobile-Friendly",
-      "esync": true,
-      "esyncText": "Works on phones",
-      "traditional": false,
-      "traditionalText": "Not applicable"
+      "feature": "Manual Paperwork Required",
+      "esync": false,
+      "traditional": true
     },
     {
-      "feature": "Audit Trail",
-      "esync": true,
-      "esyncText": "Full history",
-      "traditional": false,
-      "traditionalText": "N/A"
+      "feature": "Prone to Data Loss",
+      "esync": false,
+      "traditional": true
     },
     {
-      "feature": "Multi-role Access",
-      "esync": true,
-      "esyncText": "6+ roles",
-      "traditional": false,
-      "traditionalText": "Limited"
-    },
-    {
-      "feature": "Time to Setup",
-      "esync": true,
-      "esyncText": "1-2 weeks",
-      "traditional": true,
-      "traditionalText": "Already in place"
-    },
-    {
-      "feature": "Cost-effective",
-      "esync": true,
-      "esyncText": "Affordable",
-      "traditional": false,
-      "traditionalText": "Hidden costs"
-    }
-  ],
-
-  "faq": [
-    {
-      "question": "How secure is my school's data with eSync?",
-      "answer": "Security is our top priority. All data is encrypted end-to-end, stored on secure cloud servers, and backed up automatically. We comply with international data protection standards and conduct regular security audits. Your data is never shared with third parties without explicit consent."
-    },
-    {
-      "question": "What happens if internet goes down?",
-      "answer": "eSync is designed for low-connectivity environments. But its an online wed application"
-    },
-    {
-      "question": "How long does it take to set up eSync?",
-      "answer": "Initial setup takes just few hours for registration. Data import usually happens same-day, provided the data is in the correct format. Full training and configuration takes 2-3 days. You can start using eSync immediately while we handle the rest. Our team guides you through every step."
-    },
-    {
-      "question": "Can I import existing student and staff data?",
-      "answer": "Absolutely! We accept data in Excel, CSV, and other common formats. Our team handles the import process to ensure accuracy. We can typically import data for 1,000+ students within hours. No manual re-entry needed."
-    },
-    {
-      "question": "What if my school has custom requirements?",
-      "answer": "We offer Enterprise plans with custom features and integration capabilities. Our development team can work with your school to build specific solutions. Contact our support team to discuss your unique needs."
-    },
-    {
-      "question": "How is eSync different from international school management systems?",
-      "answer": "eSync is built specifically for Zambian schools. It understands local curriculum requirements, Zambian fee structures, and works perfectly on low-bandwidth connections common in Zambia. Plus, it's more affordable than international alternatives."
-    },
-    {
-      "question": "Can multiple users access the system simultaneously?",
-      "answer": "Yes! eSync supports unlimited concurrent users. Teachers, admin, parents, and students can all access the system at the same time. Role-based access ensures everyone sees only what they're supposed to see."
-    },
-    {
-      "question": "What training do teachers and staff receive?",
-      "answer": "We provide comprehensive training including live sessions, video tutorials, and documentation. Our support team conducts on-site or online training for all staff. You also get a dedicated account manager during your first month."
-    },
-    {
-      "question": "What devices can parents and students use to access eSync?",
-      "answer": "eSync works on any device with a web browser: computers, tablets, and smartphones. The interface is fully responsive and optimized for phones, even older models with limited processing power. Parents don't need to install anything."
-    },
-    {
-      "question": "How do you handle fee payment within eSync?",
-      "answer": "eSync tracks all fees and payments accurately. We support mobile money integration (Airtel Money, MTN Money, Zamtel) and bank transfers. Parents can see their child's balance anytime. Accounts staff get detailed reports for reconciliation."
-    },
-    {
-      "question": "What if we need to change pricing plans?",
-      "answer": "Plans are flexible. You can upgrade or downgrade anytime based on your school's needs. If you grow beyond your current plan, we'll adjust seamlessly. No long-term contracts or cancellation fees."
-    },
-    {
-      "question": "How do we contact support if we have issues?",
-      "answer": "You get 24/7 customer support via email, phone, and WhatsApp. For urgent issues, our support team responds within 2 hours. You also have access to our knowledge base with video tutorials and documentation."
+      "feature": "Limited Accessibility",
+      "esync": false,
+      "traditional": true
     }
   ],
 
   "team": {
-    "story": "eSync was founded with a mission to transform education in Zambia by making school management simple, accessible, and affordable. Our team consists of experienced educators, software engineers, and education advocates who understand the unique challenges faced by Zambian schools. We're committed to building solutions that work in resource-constrained environments while maintaining enterprise-grade reliability.",
     "members": [
       {
         "name": "Rennie Kawangu",
-        "role": "Founder & CEO",
-        "avatar": "👨‍💼",
-        "bio": "Passionate about technology and education. Rennie has worked with schools across Zambia to understand their pain points and design solutions that truly work.",
-        "email": "renniekawangu@gmail.com",
-        "linkedin": "#"
+        "role": "Founder & CEO / Lead Developer",
+        "bio": "Education-focused technologist building practical digital solutions for African schools."
       },
       {
         "name": "Marvelous Muhata",
         "role": "Chief Operating Officer",
-        "avatar": "👩‍🔬",
-        "bio": "Experienced operations leader focused on scaling education technology solutions in zambia. Marvelous ensures smooth delivery and customer satisfaction.",
-        "email": "marvelousmuhata@gmail.com",
-        "linkedin": "#"
-      },
-      {
-        "name": "Rennie Kawangu",
-        "role": "Lead Developer",
-        "avatar": "👨‍💻",
-        "bio": "Full-stack developer committed to building performant, secure systems that work reliably even in challenging network conditions.",
-        "email": "renniekawangu@gmail.com",
-        "linkedin": "#"
+        "bio": "Operations leader ensuring smooth onboarding, delivery, and customer satisfaction."
       }
     ]
   },
 
+  "contact": {
+    "email": "renniekawangu@gmail.com",
+    "phone": "+260770817839",
+    "ctaText": "Get Started with eSync"
+  },
+
   "footer": {
-    "copyright": "© 2026 eSync. All rights reserved.",
+    "copyright": "© 2026 eSync Enterprise. All rights reserved.",
     "links": [
       { "label": "Features", "href": "#features" },
       { "label": "Pricing", "href": "#pricing" },
