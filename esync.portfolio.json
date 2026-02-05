@@ -196,15 +196,43 @@
   "faq": [
     {
       "question": "What happens if the internet goes down?",
-      "answer": "eSync is an online system optimised for low-bandwidth environments. When connectivity is unstable, the system quickly resumes and syncs once the connection is restored."
+      "answer": "eSync is optimised for low-bandwidth environments. The system works efficiently even on slow connections (2G/3G). For temporary offline use, teachers can continue recording attendance on mobile devices, and data automatically syncs when connectivity is restored."
     },
     {
       "question": "Is my school's data secure?",
-      "answer": "Yes. All data is encrypted, securely stored in the cloud, and automatically backed up. Strict role-based access ensures data privacy."
+      "answer": "Yes. All data is encrypted in transit and at rest using industry-standard encryption. We maintain automatic daily backups, conduct regular security audits, implement strict role-based access control, and comply with international data protection standards."
     },
     {
       "question": "Can we import existing student data?",
-      "answer": "Yes. We support Excel and CSV imports. Our team assists to ensure accurate migration."
+      "answer": "Yes. We support Excel and CSV imports for students, staff, classes, and subjects. Our onboarding team will assist with data mapping, validation, and clean migration to ensure accuracy. The import process is typically completed within 24-48 hours."
+    },
+    {
+      "question": "What are the minimum technical requirements?",
+      "answer": "eSync works on any device with a modern web browser (Chrome, Firefox, Safari, Edge). Minimum internet: 1 Mbps for basic operations. Mobile access requires Android 6+ or iOS 12+. No software installation required—everything is browser-based and cloud-hosted."
+    },
+    {
+      "question": "How long does implementation take?",
+      "answer": "Typical implementation takes 1-2 weeks: Day 1 for registration and initial setup, Days 2-4 for data import and configuration, Days 5-10 for staff training and testing. Your dedicated onboarding specialist guides every step."
+    },
+    {
+      "question": "Can we customise eSync for our school?",
+      "answer": "Absolutely. eSync supports workflow customisation, custom reporting, API integrations, and branded mobile apps. Custom development is quoted separately based on scope. Most schools find our standard features meet 95%+ of their needs."
+    },
+    {
+      "question": "What if we have more than 1000 students?",
+      "answer": "eSync handles schools of any size with no student limits. Performance remains fast and reliable whether you have 50 or 5000 students. Pricing is the same regardless of school size—one fair plan for all Zambian schools."
+    },
+    {
+      "question": "How do parents get access to their child's information?",
+      "answer": "Parents receive a dedicated mobile app and web portal. Teachers/admins can share announcements, attendance updates, grades, and fee balances in real-time. Parents receive SMS and in-app notifications about important updates and can communicate directly with teachers through the platform."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept Zambian bank transfers, mobile money (MTN Money, Airtel Money, Vodafone Money), and international cards. You can pay monthly, per term, per semester, or annually. Quarterly billing is also available for larger schools."
+    },
+    {
+      "question": "Is there a free trial or demo?",
+      "answer": "Yes. We offer a 30-day free trial with full feature access. No credit card required. You can also request a personalized demo where our team walks you through eSync's features tailored to your school's needs."
     }
   ],
 
@@ -271,13 +299,19 @@
     "members": [
       {
         "name": "Rennie Kawangu",
-        "role": "Founder & CEO / Lead Developer",
-        "bio": "Education-focused technologist building practical digital solutions for African schools."
+        "role": "Founder & CEO",
+        "bio": "Education-focused technologist building practical digital solutions for African schools. 8+ years of experience in EdTech and software development.",
+        "avatar": "RK",
+        "email": "renniekawangu@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/renniekawangu"
       },
       {
         "name": "Marvelous Muhata",
         "role": "Chief Operating Officer",
-        "bio": "Operations leader ensuring smooth onboarding, delivery, and customer satisfaction."
+        "bio": "Operations leader ensuring smooth onboarding, delivery, and customer satisfaction. Passionate about scaling education solutions across Africa.",
+        "avatar": "MM",
+        "email": "marvelousmuhata@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/marvelousmuhata"
       }
     ]
   },
