@@ -196,7 +196,7 @@
   "faq": [
     {
       "question": "What happens if the internet goes down?",
-      "answer": "eSync is optimised for low-bandwidth environments. The system works efficiently even on slow connections (2G/3G). For temporary offline use, teachers can continue recording attendance on mobile devices, and data automatically syncs when connectivity is restored."
+      "answer": "eSync is optimised for low-bandwidth environments. The system works efficiently even on slow connections (2G/3G)."
     },
     {
       "question": "Is my school's data secure?",
