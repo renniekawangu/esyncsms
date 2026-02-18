@@ -297,22 +297,7 @@
 
   "team": {
     "members": [
-      {
-        "name": "Rennie Kawangu",
-        "role": "Founder & CEO",
-        "bio": "Education-focused technologist building practical digital solutions for African schools. 8+ years of experience in EdTech and software development.",
-        "avatar": "RK",
-        "email": "renniekawangu@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/renniekawangu"
-      },
-      {
-        "name": "Marvelous Muhata",
-        "role": "Chief Operating Officer",
-        "bio": "Operations leader ensuring smooth onboarding, delivery, and customer satisfaction. Passionate about scaling education solutions across Africa.",
-        "avatar": "MM",
-        "email": "marvelousmuhata@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/marvelousmuhata"
-      }
+      
     ]
   },
 
